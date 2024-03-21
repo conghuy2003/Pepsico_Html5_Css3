@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #0025ff;
+    --text-color: #fffaf3;
+    --header-height: 90px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 10px -10px 10px wheat;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #fffaf3;
+    border-radius: 10px;
+    box-shadow: inset -10px 10px 10px black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes animateColor {
+    0% {
+        color:black;
+    }
+   
+    50% {
+        color: #0000ff;
+    }
+    
+}
+
+@keyframes animateScale3d {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    100% {
+        transform: scale(1.5, 1.5, 1.5);
+    }
+}
+
+@keyframes animateBounce {
+    0% {
+        transform: rotate3d(0);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}

@@ -1,0 +1,181 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 120px;
+    padding: 0 50px;
+}
+
+.logo img {
+    width: 80px;
+    object-fit: contain;
+    margin-top: 4px;
+    transition: transform 1s ease-in-out;
+}
+
+.logo img:hover {
+    transform: rotate(1440deg);
+}
+
+.nav-menu {
+    margin-right: auto;
+    padding-left: 40px;
+}
+
+.menu {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: titleFont;
+    color: var(--text-color);
+    font-size: 28px;
+    padding: 0 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    animation: animateColor ease-in-out 0.8s infinite;
+}
+
+.form-search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: titleFont;
+}
+
+.form-search__input {
+    padding: 15px 66px 8px 30px;
+    border-radius: 20px;
+    background-color: blue;
+}
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #0025ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+.footer-logo {
+    margin-right: 60px;
+}
+
+.footer-logo img {
+    width: 80px;
+}
+
+.footer-logo img {
+    width: 120px;
+    object-fit: contain;
+    margin-top: 4px;
+    transition: transform 1s ease-in-out;
+}
+
+.footer-logo img:hover {
+    transform: rotate(1440deg);
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 250px;
+}
+
+.footer-item a {
+  
+    font-family: titleFont;
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.footer-item a:hover {
+    animation: animateColor ease-in-out 0.8s infinite;
+}
+
+.footer-follow {
+    width: 20%;
+    text-align: center;
+}
+
+
+
+
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.footer-social a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 44px;
+    height: 60px;
+    border-radius: 8px;
+}
+:root {
+    --header-height: 120px;
+    --text-color: #fff;
+}
+
+/* Mã CSS hiện tại của bạn */
+
+/* Phản hồi cho tablet */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .nav-menu {
+        padding-left: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li a {
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+
+    .form-search {
+        margin-top: 20px;
+    }
+
+    .form-search__input {
+        font-size: 24px;
+    }}

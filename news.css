@@ -1,0 +1,33 @@
+/* ==============MAIN============= */
+
+.banner {
+    width: 100%;
+    margin-top:20px;
+    margin-bottom: 5px;
+}
+
+.news-show {
+    margin-bottom: 60px;
+}
+
+.news-show h3 {
+    font-size: 50px;
+    font-family: titleFont;
+    color: #0065c3;
+    text-align: center;
+    margin: 0px 60px;
+    margin-bottom: 40px;
+}
+
+.news-show-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.news-show-col p {
+    font-size: 30px;
+    font-family: titleFont;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}

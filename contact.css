@@ -1,0 +1,70 @@
+h3{
+    color: green;
+    text-align: center;
+}
+
+.map{
+    width: 50%;
+    float:left;
+    margin-left: 45px;
+}
+
+.map>img{
+    margin-top: 100px;
+    width: 1100px;
+    height: 500px;
+    border: 3px solid  black;
+    border-radius: 7px;
+}
+
+.login{
+    width: 40%;
+    float: right;
+}
+
+.form_btn{
+    width: 500px;
+    height: 55%;
+    border: 3px solid  blue;
+    padding: 10px;
+    margin-top:100px ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px blue;
+    color: black;
+   
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: titleFont;
+    color: blue;
+}
+
+#input {
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+}
+.btn button { 
+    text-align: center;
+    color: black;
+}
+#fs {
+    border-radius: 10px;
+}
+
+#bt {
+    border-radius: 10px;
+    width:120px;
+    height: 50px;
+    border: 5 solid black;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#bt:hover {
+    background-color: blue
+}
